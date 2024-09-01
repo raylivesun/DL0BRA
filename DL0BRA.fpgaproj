@@ -1,0 +1,20 @@
+{
+  "Include": [
+    "*.vhd",
+    "*.vhdl",
+    "*.v",
+    "*.vcd",
+    "vhdl_ls.toml",
+    "wk2h.c\u002B\u002B",
+    "sm5g0grc.ghdl"
+  ],
+  "Exclude": [
+    "build"
+  ],
+  "Toolchain": "Yosys",
+  "Loader": "OpenFpgaLoader",
+  "TopEntity": "DL0BRA.vhd",
+  "TestBenches": [
+    "DL0BRA_tb.vhd"
+  ]
+}
